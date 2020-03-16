@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "409336001090",
+    "firebase_url": "https://sigma-17c7a.firebaseio.com",
+    "project_id": "sigma-17c7a",
+    "storage_bucket": "sigma-17c7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409336001090:android:c3824e701a9257e77833db",
+        "android_client_info": {
+          "package_name": "com.example.sigma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409336001090-qcr0qahf8dit3mibq3fj482lkjl42spt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sigma",
+            "certificate_hash": "93cc79446bb52d16b4129660fab274086e1c41a0"
+          }
+        },
+        {
+          "client_id": "409336001090-vrarmqfu8u8edk37a45qi1i97llnvbm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Lji8oXKAKtksRfAZsu0QibmNF947H1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409336001090-vrarmqfu8u8edk37a45qi1i97llnvbm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
