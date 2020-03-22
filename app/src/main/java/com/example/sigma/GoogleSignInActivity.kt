@@ -46,6 +46,7 @@ class GoogleSignInActivity : BaseActivity(), View.OnClickListener {
         super.onStart()
         val currentUser = auth.currentUser
         if (currentUser != null) {
+            currentUser.reload()
             goToMainActivity()
         }
     }
@@ -78,7 +79,7 @@ class GoogleSignInActivity : BaseActivity(), View.OnClickListener {
                     goToMainActivity()
                 }else{
                     Log.w(TAG, "signInWithCredential:fallido", task.exception)
-                    Snackbar.make(main_layout, "Authentication Failed.", Snackbar.LENGTH_SHORT).show()
+                    Snackbar.make(main_layout, "Inicio de Sesion Fallido.", Snackbar.LENGTH_SHORT).show()
                 }
                 hideProgressBar()
             }
